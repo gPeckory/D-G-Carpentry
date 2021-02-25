@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>D&G Carpentry</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="./index.html" class="waves-effect"
+          ><img class="brand-logo left" src="./img/D&G-logo-cropped (2).jpg"
+        /></a>
+        <ul id="nav-mobile" class="right hide-on-small-and-down">
+          <li><a class="waves-effect" href="./index.html">HOME</a></li>
+          <li><a class="waves-effect" href="./about.html">WORK</a></li>
+          <li><a class="waves-effect" href="#">CONTACT</a></li>
+        </ul>
+        <a
+          href="#"
+          data-activates="mobile-demo"
+          class="right button-collapse hide-on-med-and-up"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="side-nav" id="mobile-demo">
+          <li><a class="waves-effect" href="./index.html">HOME</a></li>
+          <li><a class="waves-effect" href="./about.html">WORK</a></li>
+          <li><a class="waves-effect" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container contact-container">
+      <h4 class="center white-text">Contact</h4>
+      <form id="contact-form">
+        <div class="input-field">
+          <input type="text" id="name" />
+          <label class="active white-text" for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" class="validate" />
+          <label class="active white-text" for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <textarea
+            type="email"
+            id="textarea"
+            class="materialize-textarea"
+          ></textarea>
+          <label class="active white-text" for="textarea">Message</label>
+        </div>
+      </form>
+      <button class="btn waves-effect submit-btn">Submit</button>
+      <form id="contact-form" class="contact-us">
+        <ul>
+          <a
+            href="https://www.facebook.com/DG-Carpentry-148070926110443"
+            target="_blank"
+          >
+            <li><i class="fab fa-facebook-square"></i></li>
+          </a>
+          <li>Find us on Facebook</li>
+          <li><i class="fas fa-envelope"></i></li>
+          <li>d.g.carpentrywork@gmail.com</li>
+          <li><i class="fas fa-phone green-text"></i></li>
+          <li>07745236751</li>
+        </ul>
+      </form>
+    </div>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <ul>
+          <a
+            href="https://www.facebook.com/DG-Carpentry-148070926110443"
+            target="_blank"
+          >
+            <li>
+              <i class="fab fa-facebook-square"></i>
+            </li>
+          </a>
+        </ul>
+
+        <ul>
+          <li>D&G Carpentry © 2021</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <script>
+      // this allows the mobile side nav to work
+      $(".button-collapse").sideNav();
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>

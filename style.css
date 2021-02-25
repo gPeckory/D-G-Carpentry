@@ -1,0 +1,132 @@
+body {
+  font-family: "Alegreya", serif;
+  background-color: #6a8879;
+}
+
+.nav-wrapper {
+  background-color: #8db4a2;
+}
+
+.nav-wrapper a {
+  font-size: 15px;
+}
+
+.brand-logo {
+  height: 53px;
+}
+
+#mobile-demo {
+  background-color: #8db4a2;
+}
+
+#mobile-demo a {
+  color: #fff;
+  font-size: 15px;
+}
+
+.index-container {
+  margin-top: 3rem;
+  min-height: 1250px;
+  color: #fff;
+}
+
+.index-container .contact-us {
+  text-align: center;
+}
+
+.index-container .contact-us li {
+  padding-top: 1rem;
+}
+
+.card {
+  background-color: #6a8879;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.card .card-content {
+  background-color: #6a8879;
+}
+
+.about-container {
+  min-height: 4500px;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.about-container .card {
+  margin: 0;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.about-container .card .about-card-content {
+  padding-top: 0;
+}
+
+.about-container .img-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-container .img-ul img {
+  width: 100%;
+}
+
+.about-container .contact-us {
+  text-align: center;
+}
+
+.about-container .contact-us li {
+  padding-top: 1rem;
+}
+
+.contact-container {
+  color: #fff;
+  min-height: 850px;
+  margin-top: 3rem;
+}
+
+.contact-container .contact-us {
+  text-align: center;
+}
+
+.contact-container .contact-us li {
+  padding-top: 1rem;
+}
+
+.contact-container .btn {
+  background-color: #8db4a2;
+}
+
+#contact-form {
+  margin-top: 4rem;
+  vertical-align: center;
+}
+
+.input-field {
+  color: #fff;
+}
+
+.page-footer {
+  padding: 0;
+  color: #fff;
+}
+
+.page-footer .footer-copyright {
+  padding: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #8db4a2;
+}
+
+.page-footer .fab {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

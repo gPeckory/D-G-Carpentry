@@ -12,7 +12,42 @@ body {
   font-family: "Alegreya", serif;
   background-color: $next-color;
 }
+// MEDIA QUERIES(NOT NEEDED!)
 
+// @media (min-width: 1300px) {
+//   .index-container {
+//     min-height: 1800px;
+//   }
+//   .about-container {
+//     min-height: 4000px;
+//   }
+// }
+// @media (max-width: 1300px) {
+//   .index-container {
+//     min-height: 1200px;
+//   }
+//   .about-container {
+//     min-height: 3400px;
+//   }
+// }
+// @media (max-width: 1100px) {
+//   .about-container {
+//     min-height: 3100px;
+//   }
+// }
+// @media (max-width: 600px) {
+//   .index-container {
+//     min-height: 800px;
+//   }
+//   .about-container {
+//     min-height: 2300px;
+//   }
+// }
+// @media (max-width: 400px) {
+//   .about-container {
+//     min-height: 1600px;
+//   }
+// }
 // NAV
 .nav-wrapper {
   background-color: $nav-color;
@@ -37,7 +72,6 @@ body {
 // INDEX
 .index-container {
   margin-top: 3rem;
-  min-height: 1250px;
   color: $text-color;
   .contact-us {
     text-align: center;
@@ -58,7 +92,6 @@ body {
 
 // ABOUT
 .about-container {
-  min-height: 4500px;
   color: $text-color;
   margin-top: 3rem;
   .card {
@@ -79,6 +112,7 @@ body {
 
   .contact-us {
     text-align: center;
+    padding-bottom: 10rem;
     li {
       padding-top: 1rem;
     }
@@ -88,7 +122,6 @@ body {
 // CONTACT
 .contact-container {
   color: $text-color;
-  min-height: 850px;
   margin-top: 3rem;
   .contact-us {
     text-align: center;
@@ -108,6 +141,11 @@ body {
 
 .input-field {
   color: $text-color;
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 8rem;
 }
 
 // FOOTER

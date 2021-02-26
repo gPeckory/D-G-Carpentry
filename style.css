@@ -26,7 +26,6 @@ body {
 
 .index-container {
   margin-top: 3rem;
-  min-height: 1250px;
   color: #fff;
 }
 
@@ -49,7 +48,6 @@ body {
 }
 
 .about-container {
-  min-height: 4500px;
   color: #fff;
   margin-top: 3rem;
 }
@@ -76,6 +74,7 @@ body {
 
 .about-container .contact-us {
   text-align: center;
+  padding-bottom: 10rem;
 }
 
 .about-container .contact-us li {
@@ -84,7 +83,6 @@ body {
 
 .contact-container {
   color: #fff;
-  min-height: 850px;
   margin-top: 3rem;
 }
 
@@ -107,6 +105,11 @@ body {
 
 .input-field {
   color: #fff;
+}
+
+.contact-us {
+  text-align: center;
+  padding-bottom: 8rem;
 }
 
 .page-footer {

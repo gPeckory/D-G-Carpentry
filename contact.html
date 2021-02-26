@@ -24,14 +24,14 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>D&G Carpentry</title>
   </head>
   <body>
     <nav>
       <div class="nav-wrapper">
         <a href="./index.html" class="waves-effect"
-          ><img class="brand-logo left" src="./D&G-logo-cropped (2).jpg"
+          ><img class="brand-logo left" src="./img/D&G-logo-cropped (2).jpg"
         /></a>
         <ul id="nav-mobile" class="right hide-on-small-and-down">
           <li><a class="waves-effect" href="./index.html">HOME</a></li>
@@ -54,17 +54,18 @@
 
     <div class="container contact-container">
       <h4 class="center white-text">Contact</h4>
-      <form id="contact-form">
+      <form action="POST" data-netlify="true" id="contact-form">
         <div class="input-field">
-          <input type="text" id="name" />
+          <input type="text" id="name" name="name" />
           <label class="active white-text" for="name">Name</label>
         </div>
         <div class="input-field">
-          <input type="email" id="email" class="validate" />
+          <input type="email" id="email" class="validate" name="email" />
           <label class="active white-text" for="email">Email</label>
         </div>
         <div class="input-field">
           <textarea
+            name="message"
             type="email"
             id="textarea"
             class="materialize-textarea"
@@ -85,7 +86,7 @@
           <li><i class="fas fa-envelope"></i></li>
           <li>d.g.carpentrywork@gmail.com</li>
           <li><i class="fas fa-phone green-text"></i></li>
-          <li>07899702223</li>
+          <li>07745236751</li>
         </ul>
       </form>
     </div>

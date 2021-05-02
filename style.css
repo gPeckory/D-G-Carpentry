@@ -49,9 +49,11 @@ body {
 
 .about-container {
   color: #fff;
+  margin-top: 3rem;
 }
 
 .about-container .image-wrapper {
+  margin-top: 3rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr);

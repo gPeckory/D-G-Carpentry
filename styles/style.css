@@ -24,36 +24,13 @@ body {
   font-size: 15px;
 }
 
-.index-container {
-  margin-top: 3rem;
-  color: #fff;
-}
-
-.index-container .contact-us {
-  text-align: center;
-}
-
-.index-container .contact-us li {
-  padding-top: 1rem;
-}
-
-.card {
-  background-color: #6a8879;
-  margin-top: 3rem;
-  border-radius: 5px;
-}
-
-.card .card-content {
-  background-color: #6a8879;
-}
-
 .about-container {
   color: #fff;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .about-container .image-wrapper {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr);
@@ -246,7 +223,7 @@ body {
 
 .contact-container {
   color: #fff;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .contact-container .contact-us {
@@ -264,6 +241,12 @@ body {
 #contact-form {
   margin-top: 4rem;
   vertical-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 4rem;
 }
 
 .input-field {

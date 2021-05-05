@@ -12,42 +12,7 @@ body {
   font-family: "Alegreya", serif;
   background-color: $next-color;
 }
-// MEDIA QUERIES(NOT NEEDED!)
 
-// @media (min-width: 1300px) {
-//   .index-container {
-//     min-height: 1800px;
-//   }
-//   .about-container {
-//     min-height: 4000px;
-//   }
-// }
-// @media (max-width: 1300px) {
-//   .index-container {
-//     min-height: 1200px;
-//   }
-//   .about-container {
-//     min-height: 3400px;
-//   }
-// }
-// @media (max-width: 1100px) {
-//   .about-container {
-//     min-height: 3100px;
-//   }
-// }
-// @media (max-width: 600px) {
-//   .index-container {
-//     min-height: 800px;
-//   }
-//   .about-container {
-//     min-height: 2300px;
-//   }
-// }
-// @media (max-width: 400px) {
-//   .about-container {
-//     min-height: 1600px;
-//   }
-// }
 // NAV
 .nav-wrapper {
   background-color: $nav-color;
@@ -69,34 +34,13 @@ body {
   }
 }
 
-// INDEX
-.index-container {
-  margin-top: 3rem;
-  color: $text-color;
-  .contact-us {
-    text-align: center;
-    li {
-      padding-top: 1rem;
-    }
-  }
-}
-
-.card {
-  background-color: $next-color;
-  margin-top: 3rem;
-  border-radius: 5px;
-  .card-content {
-    background-color: $next-color;
-  }
-}
-
 // ABOUT
 .about-container {
   color: $text-color;
-  margin-top: 3rem;
+  margin-top: 4rem;
 
   .image-wrapper {
-    margin-top: 3rem;
+    margin-top: 4rem;
     @media screen and (max-width: 800px) {
       display: flex;
       flex-direction: column;
@@ -230,7 +174,7 @@ body {
 // CONTACT
 .contact-container {
   color: $text-color;
-  margin-top: 3rem;
+  margin-top: 4rem;
   .contact-us {
     text-align: center;
     li {
@@ -245,6 +189,12 @@ body {
 #contact-form {
   margin-top: 4rem;
   vertical-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 4rem;
 }
 
 .input-field {

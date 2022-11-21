@@ -275,7 +275,9 @@ body {
   background-color: #8db4a2;
   z-index: 1;
 }
-
+.pink-icon {
+  color: palevioletred;
+}
 .page-footer .fab {
   margin-right: 1rem;
 }
